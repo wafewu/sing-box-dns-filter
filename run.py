@@ -6,6 +6,7 @@ from typing import List, Set
 FILTER_URLS: List[str] = [
     "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
     "https://small.oisd.nl"
+    "https://easylist-downloads.adblockplus.org/easylistchina.txt"
 ]
 OUTPUT_FILENAME: str = "temp_filters.txt"
 REQUEST_TIMEOUT: int = 15 # 增加超时时间
