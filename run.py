@@ -9,6 +9,7 @@ FILTER_URLS: List[str] = [
     "https://easylist-downloads.adblockplus.org/easylistchina.txt"
     "https://easylist-downloads.adblockplus.org/easylist.txt"
     "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt"
+    "https://anti-ad.net/adguard.txt"
 ]
 OUTPUT_FILENAME: str = "temp_filters.txt"
 REQUEST_TIMEOUT: int = 15 # 增加超时时间
